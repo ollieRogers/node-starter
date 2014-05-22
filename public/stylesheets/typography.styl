@@ -1,0 +1,68 @@
+
+
+display-font(weight = 900, font-size = 2em )
+  font-family headline-font-family
+  font-weight weight
+  font-size font-size
+  color headline-font-color
+  line-height 1.2em
+  margin-bottom 0.8em
+  margin-top 1em
+
+
+body-font(weight = 400, font-size = 1.4em )
+  font-family body-font-family
+  font-weight weight
+  font-size  font-size
+  line-height 1.6em
+  padding-bottom 1em
+  color body-font-color
+
+
+/*
+ * Typograhy goes here
+ */
+body 
+  body-font(200,  1em)
+  background-color bg-color
+
+h1
+  display-font(900, 3em)
+
+h2
+  display-font(700, 2em)
+
+h3 
+  display-font(600, 1.6em)
+
+h1, h2, h3
+  a 
+
+    color headline-font-color
+    transition color ease link-transition-speed, border-color ease link-transition-speed
+    font-weight 600
+    &:hover 
+      color link-color
+      border-bottom-color link-hover-color
+p, ul, ol 
+  body-font()
+ul, ol 
+  padding-left 1em
+  list-style disc
+
+a 
+  color link-color
+  font-weight 500
+  transition(color, link-transition-speed, ease)
+  &:hover 
+    color link-hover-color
+
+strong 
+  font-weight 700
+
+em 
+  font-style italic
+
+
+
+

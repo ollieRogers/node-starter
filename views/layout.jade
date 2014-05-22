@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta( name="viewport", content="width=device-width, initial-scale=1, user-scalable=1")
+    meta( name="description", content="Designer and front end developer based in Bournemouth" )
+      
+  body
+    nav
+      include ./partials/nav
+    
+    block banner
+    
+    .container
+      .main-content
+        block content 
+    
+    footer
+      include ./partials/footer
+
+    block extrajs 
+    script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+    script(type="text/javascript", src="/js/jquery-plugin-boilerplate.js")   
+    script(type="text/javascript", src="/js/main.js") 

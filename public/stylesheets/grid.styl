@@ -1,0 +1,83 @@
+/* 
+ * Grid Mixin
+ */
+
+grid-width = 100% unless grid-width is defined
+grid-min-width = 960px unless grid-min-width is defined
+transition-speed = 300ms unless transition-speed is defined
+
+grid(width = grid-width, min-width = grid-min-width)
+  position relative
+  width width
+  min-width min-width
+  margin 0 auto
+  overflow hidden
+  transform translate3d(0,0,0)
+  transition left transition-speed linear
+
+section()
+  display block
+  position relative
+  float left
+  width 100%
+  height 100%
+  margin 0
+  padding 0
+  clear both
+
+header
+footer
+section
+  section()
+
+space()
+  display block
+  position relative
+  float left
+  height 100%
+  margin 0
+  padding 0 10px
+  box-sizing border-box
+
+grid-space(width)
+  space()
+  width width
+
+center-space()
+  float none
+  margin 0 auto
+
+
+max-site-width()
+  max-width breakpoint-desktop
+  margin 0 auto  
+  display block
+  padding 0 40px
+
+
+
+
+/*
+ * Grid system
+ */
+
+.container, #topnav .navbar, #page-footer
+  max-site-width()
+
+
+
+@media (min-width: 960px)
+  #content
+    grid-space(70%)
+  #sidebar
+    grid-space(30%)
+  .footer-details
+    grid-space(70%)
+
+@media (max-width: 960px)
+  #content
+    grid-space(100%)
+  #sidebar
+    grid-space(100%)
+  .footer-details
+    grid-space(100%)

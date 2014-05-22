@@ -1,0 +1,29 @@
+#topnav
+  clearfix()
+  background-color nav-bg-color
+  ul
+    list-style none
+    float right
+    padding 0
+    li 
+      display block
+      float left
+      margin-top 0
+      padding 0
+      position relative
+      &:hover 
+        a
+          text-decoration none
+          &:hover 
+            color nav-link-color
+            cursor default
+      a
+        font-family nav-link-font-family 
+        text-decoration none
+        font-size 1em
+        color nav-link-color
+        padding 1em
+        display block
+        transition(color, ease, link-transition-speed)
+        &:hover 
+          color nav-link-hover-color      

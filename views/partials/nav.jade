@@ -1,0 +1,10 @@
+nav#topnav
+  .navbar
+    ul
+      each name in [ "Home", "Blog", "Contact"]
+        if ( name=="Home" )
+          li( class=(title === 'Home' ? 'active' : '') )
+            a( href='/' )= name
+        else 
+          li( class=(title === name ? 'active' : '') )
+            a( href='/'+name.toLowerCase() )= name

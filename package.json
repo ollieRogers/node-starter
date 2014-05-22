@@ -1,0 +1,15 @@
+{
+  "name": "node-start",
+  "version": "0.0.1",
+  "private": "true",
+  "scripts": {
+    "start": "NODE_ENV=production node app",
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "dependencies": {
+    "express": "3.0.0alpha4",
+    "stylus": "^0.42.3",
+    "nib": "^1.0.2",
+    "jade": "^1.3.0"
+  }
+}

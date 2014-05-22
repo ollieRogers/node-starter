@@ -1,0 +1,855 @@
+
+/* line 24 : /Users/ollie/Projects/node-start/public/stylesheets/style.styl */
+
+/* line 1 : /Users/ollie/Projects/node-start/node_modules/stylus/lib/functions/index.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/public/stylesheets/style.styl */
+/*
+ * Import nib & add moz vendor prefixes
+ */
+
+/* line 293 : /Users/ollie/Projects/node-start/node_modules/stylus/lib/functions/index.styl */
+
+/* line 14 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/index.styl */
+
+/* line 14 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/index.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/border.styl */
+
+/* line 12 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/border.styl */
+
+/* line 3 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 31 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 6 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 6 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/flex.styl */
+
+/* line 197 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/flex.styl */
+
+/* line 94 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 94 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 94 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/config.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 9 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/image.styl */
+
+/* line 27 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/image.styl */
+
+/* line 27 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 23 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 9 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/positions.styl */
+
+/* line 73 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/positions.styl */
+
+/* line 15 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+
+/* line 79 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+
+/* line 5 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 5 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 14 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 11 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 11 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 10 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line undefined : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 576 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 576 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/size.styl */
+
+/* line 9 : /Users/ollie/Projects/node-start/public/stylesheets/style.styl */
+/*
+ * nib global reset
+ */
+
+/* line 16 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 19 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 21 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 23 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 25 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 27 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/reset.styl */
+a img {
+  border: none;
+}
+
+/* line 33 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/size.styl */
+
+/* line 33 : /Users/ollie/Projects/node-start/public/stylesheets/variables.styl */
+
+/* line 97 : /Users/ollie/Projects/node-start/public/stylesheets/variables.styl */
+
+/* line 97 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+
+/* line 28 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+header,
+footer,
+section {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+/* line 64 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+.container,
+#topnav .navbar,
+#page-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  padding: 0 40px;
+}
+@media (min-width: 960px) {
+
+/* line 70 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  #content {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70%;
+  }
+
+/* line 72 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  #sidebar {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 30%;
+  }
+
+/* line 74 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  .footer-details {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70%;
+  }
+}
+@media (max-width: 960px) {
+
+/* line 78 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  #content {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+/* line 80 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  #sidebar {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+/* line 82 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+  .footer-details {
+    display: block;
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+/* line 84 : /Users/ollie/Projects/node-start/public/stylesheets/grid.styl */
+
+/* line 84 : /Users/ollie/Projects/node-start/public/stylesheets/layout.styl */
+
+/* line 4 : /Users/ollie/Projects/node-start/public/stylesheets/layout.styl */
+
+/* line 3 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+
+/* line 25 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+body {
+  font-family: 'freight-text-pro';
+  font-weight: 200;
+  font-size: 1em;
+  line-height: 1.6em;
+  padding-bottom: 1em;
+  color: #6d7e7c;
+  background-color: #ecf2f2;
+}
+
+/* line 29 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+h1 {
+  font-family: 'source-sans-pro';
+  font-weight: 900;
+  font-size: 3em;
+  color: #556260;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 1em;
+}
+
+/* line 32 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+h2 {
+  font-family: 'source-sans-pro';
+  font-weight: 700;
+  font-size: 2em;
+  color: #556260;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 1em;
+}
+
+/* line 35 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+h3 {
+  font-family: 'source-sans-pro';
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #556260;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 1em;
+}
+
+/* line 38 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+
+/* line 40 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+h1 a,
+h2 a,
+h3 a {
+  color: #556260;
+  -webkit-transition: color ease 150ms, border-color ease 150ms;
+  -moz-transition: color ease 150ms, border-color ease 150ms;
+  -o-transition: color ease 150ms, border-color ease 150ms;
+  -ms-transition: color ease 150ms, border-color ease 150ms;
+  transition: color ease 150ms, border-color ease 150ms;
+  font-weight: 600;
+}
+
+/* line 44 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+  color: #ff0d51;
+  border-bottom-color: #bc0035;
+}
+
+/* line 47 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+p,
+ul,
+ol {
+  font-family: 'freight-text-pro';
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  padding-bottom: 1em;
+  color: #6d7e7c;
+}
+
+/* line 49 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+ul,
+ol {
+  padding-left: 1em;
+  list-style: disc;
+}
+
+/* line 53 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+a {
+  color: #ff0d51;
+  font-weight: 500;
+  -webkit-transition: color 150ms ease;
+  -moz-transition: color 150ms ease;
+  -o-transition: color 150ms ease;
+  -ms-transition: color 150ms ease;
+  transition: color 150ms ease;
+}
+
+/* line 57 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+a:hover {
+  color: #bc0035;
+}
+
+/* line 60 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+strong {
+  font-weight: 700;
+}
+
+/* line 63 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+em {
+  font-style: italic;
+}
+
+/* line 65 : /Users/ollie/Projects/node-start/public/stylesheets/typography.styl */
+
+/* line 65 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+
+/* line 1 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav {
+  zoom: 1;
+  background-color: #f9fbfb;
+}
+
+/* line 24 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+#topnav:before,
+#topnav:after {
+  content: "";
+  display: table;
+}
+
+/* line 28 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+#topnav:after {
+  clear: both;
+}
+
+/* line 4 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+}
+
+/* line 8 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul li {
+  display: block;
+  float: left;
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 14 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+
+/* line 15 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul li:hover a {
+  text-decoration: none;
+}
+
+/* line 17 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul li:hover a:hover {
+  color: #495452;
+  cursor: default;
+}
+
+/* line 20 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul li a {
+  font-family: 'source-sans-pro';
+  text-decoration: none;
+  font-size: 1em;
+  color: #495452;
+  padding: 1em;
+  display: block;
+  -webkit-transition: color ease 150ms;
+  -moz-transition: color ease 150ms;
+  -o-transition: color ease 150ms;
+  -ms-transition: color ease 150ms;
+  transition: color ease 150ms;
+}
+
+/* line 28 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+#topnav ul li a:hover {
+  color: #ff0d51;
+}
+
+/* line 30 : /Users/ollie/Projects/node-start/public/stylesheets/navigation.styl */
+
+/* line 30 : /Users/ollie/Projects/node-start/public/stylesheets/footer.styl */
+
+/* line 1 : /Users/ollie/Projects/node-start/public/stylesheets/footer.styl */
+footer {
+  padding-top: 2em;
+  margin-top: 2em;
+  zoom: 1;
+}
+
+/* line 24 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+footer:before,
+footer:after {
+  content: "";
+  display: table;
+}
+
+/* line 28 : /Users/ollie/Projects/node-start/node_modules/nib/lib/nib/clearfix.styl */
+footer:after {
+  clear: both;
+}
+
+/* line 5 : /Users/ollie/Projects/node-start/public/stylesheets/footer.styl */
+
+/* line 5 : /Users/ollie/Projects/node-start/public/stylesheets/buttons.styl */
+
+/* line 28 : /Users/ollie/Projects/node-start/public/stylesheets/buttons.styl */
+.button {
+  display: inline-block;
+  padding: 0.7em 1.2em;
+  margin: 0 0.25em 0 0;
+  background-color: #ff0d51;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: 'source-sans-pro';
+  cursor: pointer;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  -webkit-transition: color 150ms ease, background-color 150ms ease;
+  -moz-transition: color 150ms ease, background-color 150ms ease;
+  -o-transition: color 150ms ease, background-color 150ms ease;
+  -ms-transition: color 150ms ease, background-color 150ms ease;
+  transition: color 150ms ease, background-color 150ms ease;
+  margin-top: 1em;
+  padding: 0.7em 0.8em 0.7em 1.2em;
+}
+
+/* line 19 : /Users/ollie/Projects/node-start/public/stylesheets/buttons.styl */
+.button:hover {
+  background-color: #ff86a8;
+  color: #fff;
+}
+
+/* line 32 : /Users/ollie/Projects/node-start/public/stylesheets/buttons.styl */
+
+/* line 32 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+
+/* line 4 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+#contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2em;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+#contact-form h1 {
+  margin-top: 0.35em;
+}
+
+/* line 14 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form {
+  margin-top: 1em;
+}
+
+/* line 16 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form input,
+.form textarea,
+.form label {
+  display: block;
+}
+
+/* line 18 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form input,
+.form textarea {
+  border: 1px solid #d7dcdc;
+  margin: 0em 0 2em 0;
+  -webkit-box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+  -webkit-transition: box-shadow 150ms ease, border 150ms ease;
+  -moz-transition: box-shadow 150ms ease, border 150ms ease;
+  -o-transition: box-shadow 150ms ease, border 150ms ease;
+  -ms-transition: box-shadow 150ms ease, border 150ms ease;
+  transition: box-shadow 150ms ease, border 150ms ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'source-sans-pro';
+  font-size: 1em;
+}
+
+/* line 26 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #ff0d51;
+  -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0);
+  box-shadow: inset 0 0 0 rgba(0,0,0,0);
+}
+
+/* line 30 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form input {
+  height: 40px;
+  text-indent: 10px;
+  width: 100%;
+  padding: 0;
+}
+
+/* line 35 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0em 0 1em 0;
+}
+
+/* line 39 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+.form label {
+  text-transform: capitalize;
+  margin: 0 0 10px 0;
+  padding: 0;
+  display: block;
+  padding: 0;
+  font-family: 'source-sans-pro';
+  font-weight: 500;
+  font-size: 1em;
+}
+
+/* line 56 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+#contact-map {
+  width: 100%;
+  height: 400px;
+}
+
+/* line 61 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+::-webkit-input-placeholder {
+  font-family: 'source-sans-pro';
+  font-size: 1em;
+  color: #e2e5e5;
+}
+
+/* line 65 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+:-moz-placeholder {
+  font-family: 'source-sans-pro';
+  font-size: 1em;
+  color: #e2e5e5;
+}
+
+/* line 69 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+::-moz-placeholder {
+  font-family: 'source-sans-pro';
+  font-size: 1em;
+  color: #e2e5e5;
+}
+
+/* line 73 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+:-ms-input-placeholder {
+  font-family: 'source-sans-pro';
+  font-size: 1em;
+  color: #e2e5e5;
+}
+@media (max-width: 500px) {
+
+/* line 78 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+  #contact-form {
+    padding: 2em 0em;
+    top: 0;
+  }
+
+/* line 82 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+  .contact-submit {
+    width: 100%;
+  }
+}
+
+/* line 84 : /Users/ollie/Projects/node-start/public/stylesheets/forms.styl */
+
+/* line 84 : /Users/ollie/Projects/node-start/public/stylesheets/icons.styl */
+
+/* line 3 : /Users/ollie/Projects/node-start/public/stylesheets/icons.styl */
+
+/* line 3 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+
+/* line 1 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+
+/* line 2 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+#animation:hover {
+  -webkit-animation-name: animation;
+  -moz-animation-name: animation;
+  -o-animation-name: animation;
+  -ms-animation-name: animation;
+  animation-name: animation;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+/* line 10 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+@-moz-keyframes animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 10 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+@-webkit-keyframes animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 10 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+@-o-keyframes animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 10 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+@-ms-keyframes animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 10 : /Users/ollie/Projects/node-start/public/stylesheets/animation.styl */
+@keyframes animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}

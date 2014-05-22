@@ -1,0 +1,31 @@
+/** 
+ * Button mixins
+ */
+primary-button() 
+  display inline-block
+  padding 0.7em 1.2em
+  margin 0 0.25em 0 0
+  background-color primary-button-color
+  color primary-button-text-color
+  border none
+  outline none
+  font-family 'source-sans-pro'
+  cursor pointer
+  if button-radius != 0
+    border-radius button-radius 
+  font-size 1.2em
+  text-decoration none
+  transition color link-transition-speed ease, background-color link-transition-speed ease
+  &:hover 
+    background-color primary-button-hover-color
+    color lighten(primary-button-text-color, 10%)
+
+
+/**
+ * Button elements
+ */
+
+.button
+  primary-button()
+  margin-top 1em
+  padding 0.7em 0.8em 0.7em 1.2em
