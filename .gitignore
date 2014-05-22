@@ -1,2 +1,10 @@
+*.seed
 *.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+stylesheets/css/style.css
 node_modules
