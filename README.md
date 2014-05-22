@@ -1,4 +1,10 @@
 node-starter
 ============
 
-this is my node project bolierplate
+This is a node project bolierplate
+
+`npm install`
+
+`npm run dev`
+
+`npm start`
