@@ -8,3 +8,4 @@
 *.swp
 stylesheets/css/style.css
 node_modules
+*.css
